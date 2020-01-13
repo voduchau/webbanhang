@@ -19,4 +19,3 @@ Route::get('/loaisanpham','PageController@getLoaisanpham');
 Route::get('/chitiet/{id}','PageController@getChitiet');
 Route::get('/lienhe','PageController@getLienhe');
 Route::get('/gioithieu','PageController@getGioithieu');
-Route::get('/gioithieu2','PageController@getGioithieu');
