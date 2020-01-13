@@ -55,7 +55,7 @@
                                     </div>
 
                                     <div class="single-item-header">
-                                    <a href="product.html"><img src="source/image/product/{{$new->image}}"
+                                    <a href="product.html"><img src="source/image/product/{{$new->image}}" style=" width: 300px ;height: 300px"
                                                 alt=""></a>
                                     </div>
                                     <div class="single-item-body">
@@ -69,7 +69,7 @@
                                             @endif
                                         </p>
                                     </div>
-                                    <div class="single-item-caption">
+                                    <div class="single-item-caption" style="margin-bottom: 15px">
                                         <a class="add-to-cart pull-left" href="shopping_cart.html"><i
                                                 class="fa fa-shopping-cart"></i></a>
                                         <a class="beta-btn primary" href="/chitiet/{{$new->id}}">Details <i
